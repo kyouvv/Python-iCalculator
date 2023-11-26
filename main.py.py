@@ -8,7 +8,7 @@ class CalculatorApp:
         self.text_result = tk.Text(root, height=2, width=16, font=("Arial", 24))
         self.text_result.grid(columnspan=5)
         self.create_buttons(root)
-        self.signatureLabel = tk.Label(root, text="made by: kyouvv")
+        self.signatureLabel = tk.Label(root, text="made by: kyouv")
         self.signatureLabel.grid(column=4, row=6)
     def add_to_calculator(self, symbol):
         if self.have_answer:
